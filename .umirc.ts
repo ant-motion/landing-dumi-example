@@ -7,7 +7,6 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   exportStatic: {
-    htmlSuffix: true,
     dynamicRoot: true,
   },
   // more config: https://d.umijs.org/config
